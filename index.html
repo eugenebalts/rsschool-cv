@@ -1,10 +1,210 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>CV</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+
+  <header class="header">
+
+    <div class="container">
+
+      <nav class="nav_list">
+
+        <ul>
+        <li class="listOfLinks">
+          <a href="#contacts" class="nav_link">Contacts</a>
+        </li> 
+        <li class="listOfLinks">
+          <a href="#summary" class="nav_link">Summary</a>
+        </li>
+        <li class="listOfLinks">
+          <a href="#skills" class="nav_link">Skills</a>
+        </li>
+        <li class="listOfLinks">
+          <a href="#code" class="nav_link">Code</a>
+        </li>
+        <li class="listOfLinks">
+          <a href="#projects" class="nav_link">Projects</a>
+        </li>
+        <li class="listOfLinks">
+          <a href="#education" class="nav_link">Education</a>
+        </li>
+        <li class="listOfLinks">
+          <a href="#languages" class="nav_link">Languages</a>
+        </li>
+      </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main class="main">
+
+    <div class="container">
+
+      <section class="section" id="profile">
+
+        <div class="profileImage">
+
+          <img src="assets/zdjecie.jpg" alt="profileImage" width="128">
+
+        </div>
+
+        <div class="mainInfo">
+
+          <h1 class="section-title">Yauheni Baltsevich</h1>
+          <p class="passion">Junior Software Engeener</p>
+
+        </div>
+
+      </section>
+
+      <section class="section" id="contacts">
+
+        <h3 class="section-title">Contacts</h3>
+
+        <ul>
+          <!-- Каждый новый вложенный тег переносится на отдельную строку с отступом, кроме текстовых элементов. !-->
+          <li >Location: Warsaw, Poland </li>
+          <li>Phone: +48572523363</li>
+          <li >Email: norcobeatz@gmail.com</li>
+          <li >Github:
+            <a href="https://github.com/eugenebalts" class="section_link">eugenebalts</a>
+          </li>
+          <li >Telegram:
+            <a href="https://t.me/eugenebalts" class="section_link">@eugenebalts</a>
+          </li>
+          <li >Discord: eugenebalts#2448</li>
+        </ul>
+
+      </section>
+
+      <section class="section" id="summary">
+
+        <h3 class="section-title">Summary</h3>
+        <p>My main goal is to become a Software Engeener. Currently, I spend a lot of time studying. Of my strengths, I want to note my determination: if I want to achieve something, I will try to do it, no matter what the cost. Currently, I live for permanent residence in Poland, it was here that I firmly decided that I would become a Software Engeneer, since this is a profession in which I definitely see myself.</p>
+        
+      </section>
+
+      <section class="section" id="skills">
+
+        <h3 class="section-title">Skills</h3>
+
+          <ul>
+            <li>Web-devepopment: <i>HTML5, CSS3</i></li>
+            <li>Frameworks: <i> - </i></li>
+            <li>Version control: <i>GIT, Github</i></li>
+            <li>Graphics: <i>Photoshop, Figma</i></li>
+          </ul>
+
+      </section>
+
+      <section class="section" id="code">
+
+        <h3 class="section-title">Code</h3>
+
+<!--Ниже, в коде, удаляю пробелы, потому что тег pre их сохраняет-->
+
+        <pre>
+          <code>
+function sayHi() {
+  return `Привет! Сегодня я уже знаю больше, чем вчера!`
+          }
+          </code>
+        </pre>
+
+      </section>
+
+      <section class="section" id="projects">
+
+        <h3 class="section-title">Projects</h3>
+
+        <ul>
+          <li><a href="#projects" class="section_link">Feauture projects</a></li>
+          <li><a href="#projects" class="section_link">Feauture projects</a></li>
+          <li><a href="#projects" class="section_link">Feauture projects</a></li>
+        </ul>
+
+      </section>
+
+      <section class="section" id="education">
+
+        <h3 class="section-title">Education</h3>
+        <p>2021: Yanka Kupala Grodno State University</p>
+
+      </section>
+
+      <section class="section" id="languages">
+
+        <h3 class="section-title">Languages</h3>
+
+        <ul>
+          <li>English - <i>A2</i></li>
+          <li>Polish - <i>B2</i></li>
+          <li>Russian - <i>Native</i></li>
+        </ul>
+
+      </section>
+
+    </div>
+
+  </main>
+
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="footer_container">
+
+        <div class="rsschoolIcon">
+
+          <a href="https://rs.school/js/">
+            <img src="assets/rs_school.svg" alt="rsschool_icon" width="64">
+          </a>
+
+        </div>
+      
+        <div class="author">
+
+          <p>&#9400; 2022</p>
+          <p><a href="https://github.com/eugenebalts" class="section_link" id="github_link">eugenebalts</a></p>
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
 </body>
 </html>
+
+<!--
+  
+  Самостоятельная оценка:
+1. Сабмит +10
+2. Валидность +10
+3. Семантическая верстка +20
+4. ссылка на github автора , год создания и лого с ссылкой на курс в футере +10
+5. использование css стилей +10
+6. центрирование при уменьш. мастштаба 5 (Я НЕ УВЕРЕН)
+7. Фото с правильными пропорциями +10
+8. Навигация в виде списка +10
+9. Содержание CV +30
+10. CV на англ. языке +10
+
+Моя оценка: 125 баллов
+
+-->
